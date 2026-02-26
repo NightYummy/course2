@@ -1,6 +1,6 @@
 package module1;
 
-class MyHashMap<K, V> {
+public class MyHashMap<K, V> {
 
     private final Pair<K, V>[] data = new Pair[16];
 
