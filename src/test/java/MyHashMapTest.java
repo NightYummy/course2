@@ -1,6 +1,3 @@
-package module1.test;
-
-import module1.MyHashMap;
 import org.junit.jupiter.api.*;
 
 class MyHashMapTest {

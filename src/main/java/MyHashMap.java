@@ -1,7 +1,6 @@
-package module1;
-
 public class MyHashMap<K, V> {
 
+    @SuppressWarnings("unchecked")
     private final Pair<K, V>[] data = new Pair[16];
 
     public V get(K key) {
@@ -21,7 +20,7 @@ public class MyHashMap<K, V> {
 
         if (data[index] == null) {
             data[index] = new Pair<>(key, value);
-            return data[index].value;
+            return value;
         }
 
         while (pair.next != null) pair = pair.next;
@@ -29,7 +28,7 @@ public class MyHashMap<K, V> {
         pair.next = new Pair<>(key, value);
         pair.next.previous = pair;
 
-        return pair.value;
+        return value;
     }
 
     public V remove(K key) {

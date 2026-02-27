@@ -1,8 +1,6 @@
-package module1;
-
 public class Main {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         MyHashMap<String, String> hm = new MyHashMap<>();
 
         hm.put("spoon", "this is a spoon");
