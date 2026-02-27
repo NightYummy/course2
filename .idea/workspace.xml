@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="709788f1-c14d-499e-89c7-e485a2e2c740" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="709788f1-c14d-499e-89c7-e485a2e2c740" name="Changes" comment="refactored project structure to work with maven">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module1/MyHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module1/test/MyHashMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyHashMapTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +95,20 @@
       <option name="presentableId" value="Default" />
       <updated>1772188790223</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactored project structure to work with maven">
+      <option name="closed" value="true" />
+      <created>1772189269462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772189269462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added unit test for MyHashMap" />
+    <MESSAGE value="refactored project structure to work with maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored project structure to work with maven" />
   </component>
 </project>
